@@ -93,7 +93,7 @@ config.clj.
 *** Building the site
 
 #+BEGIN_EXAMPLE
-    java -jar static.jar -b
+    $ java -jar static.jar -b
 #+END_EXAMPLE
 
 *** Testing the site
@@ -101,7 +101,7 @@ config.clj.
 You can test the site locally using jetty, which will launch on http://localhost:8080. 
 
 #+BEGIN_EXAMPLE
-    java -jar static.jar -j
+    $ java -jar static.jar -j
 #+END_EXAMPLE
 
 *** Deploying the site
@@ -109,13 +109,13 @@ You can test the site locally using jetty, which will launch on http://localhost
 **** SFTP
 
 #+BEGIN_EXAMPLE
-    java -jar static.jar --ssh
+    $ java -jar static.jar --ssh
 #+END_EXAMPLE
 
 **** RSYNC
 
 #+BEGIN_EXAMPLE
-    java -jar static.jar --rsync
+    $ java -jar static.jar --rsync
 #+END_EXAMPLE
 
 ** License
