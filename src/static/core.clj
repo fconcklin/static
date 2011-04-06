@@ -9,6 +9,7 @@
   (:use ring.middleware.file)
   (:use ring.util.response)
   (:use hiccup.core)
+  (:use com.reasonr.scriptjure)
   (:use static.config :reload-all)
   (:use static.io :reload-all)
   (:use static.deploy :reload-all)
